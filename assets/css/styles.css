@@ -24,7 +24,7 @@ body {
 }
 header {
   padding: 1em;
-  background: rgb(220, 69, 195);
+  background: rgb(179, 49, 157);
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -80,7 +80,7 @@ header {
   height: 7%;
   position: fixed;
   width: 100%;
-  border-bottom: 4px solid rgb(220, 69, 195);
+  border-bottom: 4px solid rgb(179, 49, 157);
   overflow: hidden;
 }
 
@@ -107,7 +107,7 @@ header {
 }
 
 .barra a:hover {
-  background: rgb(220, 69, 195);
+  background: rgb(179, 49, 157);
 }
 
 .contenido {
@@ -163,7 +163,7 @@ header {
   width: 22%;
   min-height: 500px;
   float: left;
-  background: rgb(220, 69, 195);
+  background: rgb(179, 49, 157);
   margin-top: 20px;
   margin-left: 40px;
 }
@@ -239,13 +239,14 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   background: rgb(44, 44, 44);
-  border-top: 4px solid rgb(220, 69, 195);
+  border-top: 4px solid rgb(179, 49, 157);
 }
 
 @keyframes transicion {
   0% {
     margin-left: 0;
   }
+
   20% {
     margin-left: 0;
   }
@@ -253,6 +254,7 @@ header {
   25% {
     margin-left: -100%;
   }
+
   45% {
     margin-left: -100%;
   }
@@ -260,6 +262,7 @@ header {
   50% {
     margin-left: -200%;
   }
+
   70% {
     margin-left: -200%;
   }
@@ -267,6 +270,7 @@ header {
   75% {
     margin-left: -300%;
   }
+
   100% {
     margin-left: -300%;
   }
